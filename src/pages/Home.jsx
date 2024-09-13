@@ -9,6 +9,7 @@ import { Footer } from '../components/Footer'
 import { Promotions } from '../components/Promotions'
 import { Reviews } from '../components/Reviews'
 import { ButtonFixed } from '../components/ButtonsFixed'
+import { HeroSlider } from '../components/HeroSlider'
 
 export const Home = () => {
   const divRef = useRef('home')
@@ -25,7 +26,7 @@ export const Home = () => {
       <NavBar
         Function={scrollToElement}
       />
-      <Hero />
+      <HeroSlider />
       <About />
       <Services />
       <Promotions />
