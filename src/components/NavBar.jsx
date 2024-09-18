@@ -29,22 +29,22 @@ export const NavBar = ({ Function }) => {
             </button>
             <ul className={`w-[90%] absolute top-[88px] right-4 flex flex-col origin-top-right lg:items-center p-4 z-20 ${isOpen ? 'scale-1' : 'scale-0'} lg:p-0 font-medium border border-gray-200 rounded-lg bg-gray-200 transition-all duration-300 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white lg:scale-100 lg:static lg:-translate-x-0 lg:translate-y-0 lg:w-fit`}>
               <li>
-                <a href='#' className='block py-2 px-3 text-white bg-primary rounded transition lg:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl lg:text-secondary' aria-current='page'>Inicio</a>
+                <a href='#' onClick={() => setIsOpen(false)} className='block py-2 px-3 text-white bg-primary rounded transition lg:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl lg:text-secondary' aria-current='page'>Inicio</a>
               </li>
               <li>
-                <a href='/#about' onClick={() => Function()} className='block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Nosotros</a>
+                <a href='/#about' onClick={() => setIsOpen(false)} className='block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Nosotros</a>
               </li>
               <li>
-                <a href='/#services' onClick={() => Function()} className='block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Servicios</a>
+                <a href='/#services' onClick={() => setIsOpen(false)} className='block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Servicios</a>
               </li>
               <li>
-                <a href='#promotion' className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Promociones</a>
+                <a href='#promotion' onClick={() => setIsOpen(false)} className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Promociones</a>
               </li>
               <li>
-                <a href='#location' onClick={() => Function()} className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Ubicación</a>
+                <a href='#location' onClick={() => setIsOpen(false)} className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Ubicación</a>
               </li>
               <li>
-                <a href='tel:5565095139' className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Contacto</a>
+                <a href='tel:5565095139' onClick={() => setIsOpen(false)} className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Contacto</a>
               </li>
             </ul>
           </div>
