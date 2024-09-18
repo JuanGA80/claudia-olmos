@@ -43,7 +43,7 @@ export const About = ({ divRef }) => {
               valuePoints.map((item) => (
                 <CardColor key={item.id}>
                   {item.icon}
-                  <h3 className='text-white font-semibold text-xl'>{item.title}</h3>
+                  <h3 className='text-white font-semibold text-xl lg:text-base xl:text-xl'>{item.title}</h3>
                 </CardColor>
               ))
             }
