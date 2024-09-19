@@ -1,7 +1,7 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
-import heroDes from '../assets/hero.webp'
-import hero2 from '../assets/claudia.webp'
+import heroDes from '../assets/CHIC1.webp'
+import hero2 from '../assets/CHIC2.webp'
 
 export const HeroSlider = ({ divRef }) => {
   const optionsSliderReviews = {
