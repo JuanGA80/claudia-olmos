@@ -9,8 +9,7 @@ export const Footer = ({ elementRef }) => {
   return (
     <footer className='w-full flex justify-center items-center bg-gradient-to-r from-primary to-secondary text-white py-4 mt-10' id='footer' ref={elementRef}>
       <div className='w-full flex justify-between lg:max-w-4xl xl:max-w-7xl items-center flex-col px-4 text-center lg:flex-row lg:justify-between md:max-w-8xl'>
-        <p>© {year} Todos los derechos reservados Dra. Claudia Olmos. Diseño web y posicionamiento realizado por
-          <a href='https://dentarios.com.mx' target='_blank' rel='noopener noreferrer' aria-label='Contactar a la agencia de marketing Dentarios'> Dentarios</a>
+        <p>© {year} Todos los derechos reservados Dra. Claudia Olmos.
         </p>
         <div className='w-44 mt-4 flex justify-between items-center'>
           <a title='Mandar mensaje al WhatsApp de Dra. Claudia Olmos' href='https://wa.me/525565095139' className='w-12 h-12 rounded-full border-white border-2 flex justify-center items-center transition duration-300 fill-white hover:duration-300 hover:transition hover:bg-white hover:text-gray-800' target='_blank' rel='noopener noreferrer'>
